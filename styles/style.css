@@ -1,0 +1,124 @@
+body {
+    background-color: #556052;
+}
+
+.box {
+    background-color: #f2efea;
+    margin: 20px 100px 50px 100px;
+    padding: 50px 50px 50px 50px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5)
+}
+
+.nav.nav-pills {
+    font-family: cursive;
+    background-color: #cbbcb1;
+    padding: 20px;
+    margin: 10px 100px 10px 100px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5)
+}
+
+@import "nav";
+@import "navbar";
+h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 72px;
+    color: #af6b58;
+    margin: 20px 0px;
+}
+
+h2 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 28px;
+    color: #af6b58;
+}
+
+p {
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    color: #556052;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn.btn-link {
+    border-radius: 25px;
+    margin: 0 auto;
+    display: block;
+    background-color: #cbbcb1;
+    border: 1px solid #af6b58;
+    color: #af6b58;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 16px 24px;
+    text-decoration: none;
+    transition: all 200ms ease;
+    cursor: pointer;
+}
+
+.btn.btn-link:hover {
+    background-color: #af6b58;
+    color: #f2efea;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(192, 103, 103, 0), rgba(163, 93, 106), rgba(0, 0, 0, 0));
+}
+
+img {
+    width: 350px;
+    border-radius: 8px;
+    margin: 15px;
+}
+
+.cookies:hover {
+    opacity: 0.3;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.ladyfingers:hover {
+    opacity: 0.3;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.pretzels:hover {
+    opacity: 0.3;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
+
+footer {
+    font-family: cursive;
+    background-color: #cbbcb1;
+    padding: 20px;
+    margin: 10px 100px 10px 100px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5)
+}
+
+.col-3-footer {
+    align-items: center;
+}
+
+
+/* ---- Recipe Lady fingers Site ---- */
+
+.ingredients {
+    text-align: left;
+}
+
+.preparation {
+    text-align: left;
+}
