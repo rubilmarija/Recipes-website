@@ -1,2 +1,2 @@
 # Recipes-website
-Inlämningsuppgift HTML/CSS
+HTML/CSS
